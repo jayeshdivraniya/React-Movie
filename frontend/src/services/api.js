@@ -14,8 +14,7 @@
 //     return data.results
 // }
 
-
-const BASE_URL = "http://localhost:5000/api/movies";
+const BASE_URL = "https://react-movie-h027.onrender.com/api/movies";
 
 export const getPopularMovies = async () => {
     const response = await fetch(`${BASE_URL}/popular`);
